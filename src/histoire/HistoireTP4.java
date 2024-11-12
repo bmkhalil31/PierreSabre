@@ -26,9 +26,15 @@ public static void main(String[] args) {
 //	yaku.extorquer(marco);
 //	
 	
+//	Ronin roro=new Ronin("Roro", "shochu", 60);
+//	Commercant marco=new Commercant("marco",15);
+//	roro.direBonjour();
+//	roro.donner(marco);
+	
 	Ronin roro=new Ronin("Roro", "shochu", 60);
-	Commercant marco=new Commercant("marco",15);
-	roro.direBonjour();
-	roro.donner(marco);
+	Yakuza yaku=new Yakuza("Yaku Le Noir", "whisky", 30," Warsong" );
+	roro.provoquer(yaku);
+	
+	
 }
 }

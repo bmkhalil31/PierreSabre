@@ -11,14 +11,14 @@ public class Commercant extends Humain {
 		
 		
 		int somme=argent;
-		argent=0;
+		perdreArgent(somme);;
 		parler("J'ai tout perdu! Le monde est trop injuste...");
 		return somme;
 		
 	}
 	public void recevoir(int argent) {
 		parler(argent+" sous! je te remercie genereux donateur ");
-		this.argent=this.argent+argent;
+		gagnerArgent(argent);
 	}
 	
 	
